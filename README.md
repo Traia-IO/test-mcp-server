@@ -118,7 +118,7 @@ The `deployment_params.json` file contains the deployment configuration for this
   "github_url": "https://github.com/Traia-IO/test-mcp-server",
   "mcp_server": {
     "name": "test-mcp",
-    "description": "Asddsaadsadsdas",
+    "description": "Asdadsasasd",
     "server_type": "streamable-http",
 "capabilities": [
       // List all implemented tool names here
