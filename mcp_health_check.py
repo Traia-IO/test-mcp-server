@@ -91,7 +91,7 @@ def check_mcp_server_health(url: str) -> bool:
             print(f"📋 Available tools: {', '.join(tool_names)}")
             
             # Check for expected tools
-            expected_tools = ["example_tool", "get_api_info"]
+            expected_tools = ["example_tool"]
             missing_tools = [tool for tool in expected_tools if tool not in tool_names]
             
             if missing_tools:
@@ -136,7 +136,7 @@ def main():
     
     print(f"🚀 test MCP Server Health Check")
     print(f"📍 Server URL: {args.url}")
-    print(f"📰 Expected tools: example_tool, get_api_info")
+    print(f"📰 Expected tools: example_tool")
     print("="*50)
     
     if check_mcp_server_health(args.url):

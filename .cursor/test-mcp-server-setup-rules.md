@@ -6,7 +6,7 @@ You are working on implementing the test MCP (Model Context Protocol) server. Th
 
 - **API Name**: test
 - **Documentation**: []()
-- **Website**: [https://petstore.swagger.io/](https://petstore.swagger.io/)
+- **Website**: [https://pro-api.coinmarketcap.com/](https://pro-api.coinmarketcap.com/)
 - **Authentication**: Not required
 
 ## Implementation Checklist

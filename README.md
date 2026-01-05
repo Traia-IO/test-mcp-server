@@ -11,7 +11,7 @@ This is an MCP (Model Context Protocol) server that provides access to the test 
 
 ## API Documentation
 
-- **test Website**: [https://petstore.swagger.io/](https://petstore.swagger.io/)
+- **test Website**: [https://pro-api.coinmarketcap.com/](https://pro-api.coinmarketcap.com/)
 - **API Documentation**: []()
 
 ## Available Tools
@@ -19,7 +19,6 @@ This is an MCP (Model Context Protocol) server that provides access to the test 
 This server provides the following tools:
 
 - **`example_tool`**: Placeholder tool (to be implemented)
-- **`get_api_info`**: Get information about the API service and authentication status
 
 *Note: Replace `example_tool` with actual test API tools based on the documentation.*
 
@@ -118,12 +117,11 @@ The `deployment_params.json` file contains the deployment configuration for this
   "github_url": "https://github.com/Traia-IO/test-mcp-server",
   "mcp_server": {
     "name": "test-mcp",
-    "description": "Asdadsasasd",
+    "description": "Https://pro-api.coinmarketcap.com/ https://pro-api.coinmarketcap.com/ https://pro-api.coinmarketcap.com/",
     "server_type": "streamable-http",
 "capabilities": [
       // List all implemented tool names here
-      "example_tool",
-      "get_api_info"
+      "example_tool"
     ]
   },
   "deployment_method": "cloud_run",
